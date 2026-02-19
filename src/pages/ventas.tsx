@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ShoppingCart, Package, LogOut, Search, Plus, Trash2 } from 'lucide-react';
+import { ShoppingCart, Package, LogOut, Search, Plus,  } from 'lucide-react';
 
 function Ventas() {
   // 1. Nuestra "Bodega" de prueba con la Leche de Bebé
