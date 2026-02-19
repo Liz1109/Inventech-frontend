@@ -32,7 +32,6 @@ function App() {
               <User className="absolute left-3 h-5 w-5 text-purple-600" />
               <input 
                 type="text" 
-                placeholder="administrador" 
                 className="w-full rounded bg-blue-50 py-3 pl-10 pr-3 text-sm text-gray-700 outline-none focus:ring-2 focus:ring-blue-400 placeholder-gray-400"
               />
             </div>
@@ -44,7 +43,7 @@ function App() {
               <Lock className="absolute left-3 h-5 w-5 text-gray-400" />
               <input 
                 type="password" 
-                placeholder="........" 
+                
                 className="w-full rounded bg-blue-50 py-3 pl-10 pr-10 text-sm text-gray-700 outline-none focus:ring-2 focus:ring-blue-400 placeholder-gray-400"
               />
               <Eye className="absolute right-3 h-5 w-5 cursor-pointer text-gray-400 hover:text-gray-600" />
@@ -54,7 +53,7 @@ function App() {
           {/* 3. AÑADIR EL onClick AQUÍ ABAJO */}
           <button 
             type="button" 
-            onClick={() => navigate('/ventas')}//se cambia para probar
+            onClick={() => navigate('/almacen')}//se cambia para probar
             className="w-full rounded-full bg-gray-500 py-3 text-sm font-bold text-white shadow-md transition hover:bg-gray-600 active:scale-95"
           >
             INGRESAR
