@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Box, CheckCircle, Package, LogOut, ArrowUpDown, Filter } from 'lucide-react';
+import { Box, CheckCircle, Package, LogOut, ArrowUpDown,} from 'lucide-react';
 
 function Almacen() {
   // 1. Estado para el filtro (por defecto 'Todos')
   const [filtro, setFiltro] = useState('Todos');
 
   // Datos de ejemplo basados en los requerimientos de InvenTech
-  const [pedidos, setPedidos] = useState([
+  const [pedidos] = useState([
     { id: '101', cliente: 'Dilan Becerra', estado: 'Recibido', items: 3 },
     { id: '102', cliente: 'María Morones', estado: 'En preparación', items: 1 },
     { id: '103', cliente: 'Carlos Ibarra', estado: 'Recibido', items: 5 },
