@@ -53,7 +53,7 @@ function App() {
           {/* 3. AÑADIR EL onClick AQUÍ ABAJO */}
           <button 
             type="button" 
-            onClick={() => navigate('/almacen')}//se cambia para probar
+            onClick={() => navigate('/ventas')}//se cambia para probar
             className="w-full rounded-full bg-gray-500 py-3 text-sm font-bold text-white shadow-md transition hover:bg-gray-600 active:scale-95"
           >
             INGRESAR
